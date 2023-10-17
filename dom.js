@@ -1,4 +1,3 @@
-
 DOMSelectors = {
     //store all realted code for selectinv elements here
     form: document.querySelector("#form"),
