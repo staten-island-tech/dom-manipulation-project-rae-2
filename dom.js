@@ -1,13 +1,22 @@
 DOMSelectors = {
     //store all realted code for selectinv elements here
     form: document.querySelector("#form"),
-    cheese: document.querySelector(".ch-eese"),
+    cheese: document.querySelector(".cheese"),
     h2s: document.querySelectorAll("h2"),
 };
 
-DOMSelectors.form.addEventListener("submit", function (event) {
+DOMSelectors.form.addEventListener("submit"), function (event) {
     event.preventDefault();
-    DOMSelectors.h2s.forEach(
-        (header)=> (header.textContent = DOMSelectors.cheese.value)
+    document.querySelector(".gallery").insertAdjacentElement(
+        "beforeend",
+        `<div class="card">
+        <h2 class="card-title">${DOMSelectors.cheese.value}</h2>
+        </div>`
     );    
+};
+DOMSelectors.form.addEventListener("submit",function (event){
+    event.preventDefault();
+    cardThing(),
+    ClearFields(),
+    RemoveFunction();
 });
