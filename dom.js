@@ -1,22 +1,20 @@
-DOMSelectors = {
-    //store all realted code for selectinv elements here
-    form: document.querySelector("#form"),
-    cheese: document.querySelector(".cheese"),
-    h2s: document.querySelectorAll("h2"),
+const button = document.getElementById("btn");
+const text = document.querySelector("#text");
+console.log(text);
+
+
+
+
+/* const DOMSelectors = {
+    button: document.getElementById("btn"),
+    text: document.querySelector("#text"),
+    box: document.getElementById("big-black-box"),
+    point: document.querySelectorAll(".point"),
 };
 
-DOMSelectors.form.addEventListener("submit"), function (event) {
-    event.preventDefault();
-    document.querySelector(".gallery").insertAdjacentElement(
-        "beforeend",
-        `<div class="card">
-        <h2 class="card-title">${DOMSelectors.cheese.value}</h2>
-        </div>`
-    );    
-};
-DOMSelectors.form.addEventListener("submit",function (event){
-    event.preventDefault();
-    cardThing(),
-    ClearFields(),
-    RemoveFunction();
-});
+function backgroundAndText(background, text){
+    background.style.backgroundColor = "green";
+    text.innerHTML = "ahahahah";
+}
+
+backgroundAndText(DOMSelectors.box, DOMSelectors.text); */
