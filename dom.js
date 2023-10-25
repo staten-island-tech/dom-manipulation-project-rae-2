@@ -1,4 +1,4 @@
-DOMSelectors = {
+const DOMSelectors = {
     //store all realted code for selectinv elements here
     form: document.querySelector("#form"),
     cheese: document.querySelector(".cheese"),
@@ -11,3 +11,4 @@ DOMSelectors.form.addEventListener("submit", function (event) {
         (header)=> (header.textContent = DOMSelectors.cheese.value)
     );    
 });
+
