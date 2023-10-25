@@ -1,20 +1,18 @@
+/* 
 const button = document.getElementById("btn");
 const text = document.querySelector("#text");
-console.log(text);
+console.log(text); */
 
-
-
-
-/* const DOMSelectors = {
+const DOMSelectors = {
     button: document.getElementById("btn"),
     text: document.querySelector("#text"),
-    box: document.getElementById("big-black-box"),
-    point: document.querySelectorAll(".point"),
+    box: document.getElementById("this is your album!!!!"),
 };
 
-function backgroundAndText(background, text){
+function backgrounds(background, text){
     background.style.backgroundColor = "green";
-    text.innerHTML = "ahahahah";
+    text.innerHTML = "Tyarrrr"
+    text.style.fontSize = "40px";
 }
 
-backgroundAndText(DOMSelectors.box, DOMSelectors.text); */
+backgrounds(DOMSelectors.box);
