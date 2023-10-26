@@ -12,3 +12,9 @@ DOMSelectors.form.addEventListener("submit", function (event) {
     );    
 });
 
+ function card(cheese) {
+    DOMSelectors.cheese.insertAdjacentHTML(
+        "beforeend"
+        
+    )
+ }
