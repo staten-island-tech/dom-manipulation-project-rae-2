@@ -21,7 +21,7 @@ function remove(){
     let buttons = document.querySelectorAll("button");
     buttons.forEach((btn)=>
     btn.addEventListener("click", function (event) {
-        console.log(event.target.parentElement);
+        btn.parentElement.remove();
     })
     );
 }
@@ -41,6 +41,7 @@ function insert(whatever, DOMSelectors) {
         <h2 class="card-title">${whatever.name}</h2>
             <img src="${whatever.picture}" alt="picture" class="image"></img>
         <h2 class="card-price">${whatever.recipe}</h2>
+        <button>kms</button>
     </div>`);
     clear(DOMSelectors);
     remove();

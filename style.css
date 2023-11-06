@@ -31,7 +31,7 @@ body,
     justify-content: space-around;
     margin-bottom: 1.5rem;
     padding: 3px;
-    background-color: rgb(211, 210, 149);
+    background-color: rgb(163, 211, 149);
     box-shadow: 10px 10px 5px rgb(116, 116, 80);
  
 }
@@ -46,28 +46,29 @@ body,
     }
 }
 
-.card-image {
+.image {
     width: 70%;
     height: 70%;
     filter: grayscale(85%);
     transition: all .5s;
+    object-fit: contain;
 }
 .card-title {
     font-size: 2.0rem;
-    background-color: rgb(211, 210, 149); 
+    background-color: rgb(163, 211, 149); 
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
 
 }
 .card-price{
-    background-color: rgb(211, 210, 149); 
+    background-color: rgb(163, 211, 149); 
     font-size: 1.7rem;
-    margin-bottom: 30px rgb(211, 210, 149);
+    margin-bottom: 30px rgb(163, 211, 149);
     text-align: center;
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
 }
-.card-image:hover {
+.image:hover {
     filter: grayscale(0);
     transform: scale(1.4);
 }
